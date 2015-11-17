@@ -1,0 +1,7 @@
+quil_user:
+    resource: "@QUILUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
